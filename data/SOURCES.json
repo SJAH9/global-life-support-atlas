@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {"id":"fao-aquastat","title":"AQUASTAT","publisher":"Food and Agriculture Organization","domain":"water","url":"https://www.fao.org/aquastat/en/databases/index.html","status":"candidate"},
+    {"id":"fao-food-security","title":"Suite of Food Security Indicators","publisher":"FAOSTAT","domain":"food","url":"https://data.fao.org/catalog/dataset/955d6564-40a9-48b4-b51b-f19d65bb3539","status":"candidate"},
+    {"id":"copernicus-era5-land","title":"ERA5-Land hourly data from 1950 to present","publisher":"Copernicus Climate Change Service","domain":"heat","url":"https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land","status":"candidate"},
+    {"id":"isric-soilgrids","title":"SoilGrids","publisher":"ISRIC - World Soil Information","domain":"soil","url":"https://docs.isric.org/globaldata/soilgrids/","status":"candidate"},
+    {"id":"world-bank-wdi","title":"World Development Indicators","publisher":"World Bank","domain":"energy, transport, health","url":"https://datatopics.worldbank.org/world-development-indicators/","status":"candidate"},
+    {"id":"who-gho","title":"Global Health Observatory","publisher":"World Health Organization","domain":"health","url":"https://www.who.int/data/gho","status":"candidate"},
+    {"id":"protected-planet-wdpa","title":"World Database on Protected Areas","publisher":"UNEP-WCMC and IUCN","domain":"ecological integrity","url":"https://www.protectedplanet.net/en/thematic-areas/wdpa","status":"candidate"},
+    {"id":"vdem","title":"V-Dem Dataset","publisher":"V-Dem Institute","domain":"institutional capacity","url":"https://www.v-dem.net/data/the-v-dem-dataset/","status":"candidate"}
+  ]
+}

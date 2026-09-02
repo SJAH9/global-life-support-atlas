@@ -1,0 +1,14 @@
+{
+  "domains": [
+    {"id":"water","label":"Water","question":"Can the region maintain safe, sufficient water through stress and recovery?","candidate_sources":["FAO AQUASTAT","WHO/UNICEF JMP"],"candidate_indicators":["water stress","renewable water availability","safe drinking-water access"]},
+    {"id":"food","label":"Food","question":"Can people reliably obtain adequate and diverse nutrition?","candidate_sources":["FAOSTAT Food Security Indicators"],"candidate_indicators":["undernourishment","food insecurity","dietary energy supply stability"]},
+    {"id":"heat","label":"Heat","question":"How strongly are people and productive systems exposed to dangerous heat?","candidate_sources":["Copernicus ERA5-Land"],"candidate_indicators":["temperature anomaly","heat-extreme frequency","urban heat exposure"]},
+    {"id":"soil","label":"Soil","question":"Can soils continue supporting food, water retention, and biological activity?","candidate_sources":["ISRIC SoilGrids","FAOSTAT"],"candidate_indicators":["soil organic carbon","pH","erosion or degradation pressure"]},
+    {"id":"energy","label":"Energy","question":"Can essential energy services persist without amplifying systemic harm?","candidate_sources":["World Bank WDI","Ember"],"candidate_indicators":["electricity access","system reliability","carbon intensity"]},
+    {"id":"transport","label":"Transport","question":"Can people, food, water, medicine, and materials move during stress?","candidate_sources":["World Bank WDI"],"candidate_indicators":["rural access","road and rail capacity","logistics continuity"]},
+    {"id":"health","label":"Health","question":"Can the population prevent, absorb, and recover from health shocks?","candidate_sources":["WHO Global Health Observatory","World Bank WDI"],"candidate_indicators":["healthy life expectancy","service coverage","mortality burden"]},
+    {"id":"ecology","label":"Ecological integrity","question":"Do ecological systems retain function, connectivity, and adaptive capacity?","candidate_sources":["UNEP-WCMC Protected Planet","IUCN"],"candidate_indicators":["protected coverage","connectivity","ecosystem integrity"]},
+    {"id":"institutions","label":"Institutional capacity","question":"Can institutions observe, decide, coordinate, and correct under pressure?","candidate_sources":["V-Dem","World Bank WGI"],"candidate_indicators":["accountability","public administration","civic and scientific freedom"]}
+  ],
+  "nested_context": ["carbon emissions","industrial production","agriculture","local ecology","urban heat","water systems","biological adaptation"]
+}
