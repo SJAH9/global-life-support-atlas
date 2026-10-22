@@ -1,12 +1,12 @@
 # Global Life-Support Atlas
 
-The Global Life-Support Atlas is a private-development mapping project that tests whether nested life-support resilience predicts harm and adaptation better than carbon metrics alone. It models regions through nine distinct domains: water, food, heat, soil, energy, transport, health, ecological integrity, and institutional capacity.
+The Global Life-Support Atlas is an open-development mapping project that tests whether nested life-support resilience predicts harm and adaptation better than carbon metrics alone. It models regions through nine distinct domains: water, food, heat, soil, energy, transport, health, ecological integrity, and institutional capacity.
 
 Carbon remains inside the model as an energy and industrial-system condition. Life encloses carbon.
 
 ## Development status
 
-This repository is private before launch. `project.json` is the launch gate: public participation requires both a configured `launch_date` and `participation_enabled: true`. No public submission workflow should be enabled before both conditions are met.
+The author authorized public source access on 21 October 2026. Source availability is separate from opening participation. `project.json` is the participation gate: public participation requires both a configured `launch_date` and `participation_enabled: true`. No public submission workflow should be enabled before both conditions are met.
 
 The initial atlas intentionally contains no scored observations. It maps regions and validates the full data contract without presenting placeholder values as findings. A region receives a nested score only after all nine domains contain accepted evidence.
 

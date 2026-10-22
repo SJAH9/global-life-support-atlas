@@ -13,9 +13,9 @@ class AtlasTests(unittest.TestCase):
         self.assertEqual(len(ids), 9)
         self.assertEqual(len(set(ids)), 9)
 
-    def test_private_launch_gate(self):
+    def test_public_source_does_not_open_participation(self):
         project = self.payload["project"]
-        self.assertEqual(project["visibility"], "private")
+        self.assertEqual(project["visibility"], "public")
         self.assertFalse(project["participation_enabled"])
         self.assertIsNone(project["launch_date"])
 

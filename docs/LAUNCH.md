@@ -1,12 +1,12 @@
-# Private development and public launch
+# Open development and participation launch
 
 ## Current state
 
-The repository must remain private. `project.json` has no launch date and public participation is disabled.
+On 21 October 2026 the author authorized making the source repository public for the Open Atlas work. This supersedes the earlier requirement to keep the repository private. `project.json` still has no participation launch date and public participation remains disabled. Public source access does not constitute a scored research release or open submissions.
 
 ## Launch conditions
 
-Before changing repository visibility:
+Before enabling public participation:
 
 - approve and record an ISO launch date in `project.json`;
 - complete legal and citation review for every redistributed dataset;
@@ -17,6 +17,6 @@ Before changing repository visibility:
 - verify that community submissions cannot write directly to accepted observations;
 - produce an archived, citable release and public methodology version;
 - set `participation_enabled` to `true` only in the launch commit;
-- change GitHub visibility only after the launch commit is verified.
+- verify that the launch is announced as a participation release rather than merely a source-code visibility change.
 
 The generated site checks the configured date before exposing public intake. GitHub visibility and repository permissions remain a separate administrative control and must be changed explicitly.
